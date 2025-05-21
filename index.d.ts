@@ -21,7 +21,7 @@ declare interface FormFieldProps {
   type?: string;
   value: string;
   onChange: (
-    e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
+      e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
   ) => void;
   placeholder?: string;
   as?: "input" | "textarea" | "select";
@@ -130,8 +130,8 @@ declare interface BunnyVideoResponse {
 }
 
 declare type ApiResponse<T> =
-  | ({ success: true; error: null } & T)
-  | { success: false; error: string };
+    | ({ success: true; error: null } & T)
+    | { success: false; error: string };
 
 declare interface ApiFetchOptions {
   method?: string;

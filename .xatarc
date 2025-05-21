@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://Farhan-Keriwala-s-workspace-92oncu.eu-central-1.xata.sh/db/SnapCast",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}
